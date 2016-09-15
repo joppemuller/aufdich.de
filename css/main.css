@@ -41,6 +41,10 @@ section {
 	z-index: -1;
 }
 
+.cursor {
+    cursor: url(http://joppemuller.com/images/CursorGIF2.png), auto;
+}
+
 .text {
 	color: #e7334c;
 	font-size: 5vw;
