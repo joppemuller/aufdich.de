@@ -8,7 +8,9 @@ body {
 	font-family: 'Montserrat', sans-serif;
 	text-align: center;
 	background-color: #faefd3;
-	cursor: url(images/beer.png), auto;
+	-webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    cursor: url(images/CursorGIF2.png), cell;	
 }
 
 img {
@@ -35,10 +37,15 @@ p {
     font-size: 6vw;
 }
 
+section {
+	z-index: -1;
+}
+
 .text {
 	color: #e7334c;
 	font-size: 5vw;
 	text-align: left;
+	padding: 10px;
 }
 
 .responsivetext {
@@ -132,6 +139,11 @@ section div {
 
 .text {
 	font-size: 1.5vw;
+	padding: 0px;
+}
+
+section h2 {
+	width: 100vw;
 }
 
 }

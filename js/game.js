@@ -99,7 +99,7 @@ var render = function () {
 
 	// Score
 	ctx.fillStyle = "rgb(250, 239, 211)";
-	ctx.font = "12px 'Montserrat'";
+	ctx.font = "16px 'Montserrat'";
 	ctx.textAlign = "left";
 	ctx.textBaseline = "top";
 	ctx.fillText("BOTTLES REMOVED: " + monstersCaught, 32, 32);
