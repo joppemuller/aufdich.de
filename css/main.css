@@ -1,3 +1,4 @@
+
 * {
 	margin: 0;
 	padding: 0;
@@ -19,18 +20,30 @@ div {
 }
 
 canvas {
-	width: 100%;
-	max-width: 512px;
+    max-width: 512px;
+    max-height: 37vw;
 }
 
 h1 {
 	font-size: 32vw;
+	font-weight: bolder;
 	color: #faefd3;
 }
 
 p {
 	color: #faefd3;
-    font-size: 8vw;
+    font-size: 6vw;
+}
+
+.text {
+	color: #e7334c;
+	font-size: 5vw;
+	text-align: left;
+}
+
+.responsivetext {
+	margin-top: 3vw;
+	width: 100vw;
 }
 
 .aufdich {
@@ -41,6 +54,19 @@ p {
 
 .berlin {
     width: 97vw;
+    margin-bottom: 1vw;
+    height: 65vw;
+}
+
+section div {
+	width: 47vw;
+	display: inline-block;
+	float: left;
+}
+
+.image {
+	width: 100vw;
+	height: 50vw;
 }
 
 .berlintext {
@@ -49,14 +75,16 @@ p {
 	background-color: #e7334c;
 	float: left;
 	margin-right: 3vw;
-	padding-bottom: 3vw;
-	padding-top: 3vw;
+	padding-bottom: 10vw;
+	padding-top: 10vw;
+	height: 43vw;
 }
 
 .iconliebe {
 	width: 47vw;
 	display: inline-block;
 	float: left;
+	height: 43vw;
 }
 
 .iconliebe div {
@@ -65,29 +93,45 @@ p {
 
 .iconliebe div:last-child {
 	margin-top: 3vw;
+	padding-top: 5.25vw;
+    padding-bottom: 5.25vw;
+}
+
+.iconliebe p {
+    color: #e6aa82;
+    font-size: 5vw;
 }
 
 .bottleheart {
 	margin-top: 2vw;
 	margin-bottom: 3vw;
-	max-width: 80%;
+	width: 37vw;
+	display: none;
 }
 
-.game {
-	width: 47vw;
+.image {
+	margin-right: 3vw;
 }
-
-
-
 
 .divider {
 	width: 100%;
 	height: 3vw;
 }
 
-footer {
-	margin-top: 150px;
-	width: 100%;
-	height: 150px;
-	background-color: #e7334c;
+@media screen and (min-width: 769px) {
+
+.image {
+	width: 47vw;
+	height: 30vw;
+}
+
+.responsivetext {
+	width: 47vw;
+	margin-top: 0;
+}
+
+.text {
+	font-size: 1.5vw;
+}
+
 }

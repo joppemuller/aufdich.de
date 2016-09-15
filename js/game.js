@@ -98,11 +98,11 @@ var render = function () {
 	}
 
 	// Score
-	ctx.fillStyle = "rgb(250, 250, 250)";
-	ctx.font = "18px sans-serif";
+	ctx.fillStyle = "rgb(250, 239, 211)";
+	ctx.font = "12px 'Montserrat'";
 	ctx.textAlign = "left";
 	ctx.textBaseline = "top";
-	ctx.fillText("Bottles removed: " + monstersCaught, 32, 32);
+	ctx.fillText("BOTTLES REMOVED: " + monstersCaught, 32, 32);
 };
 
 // The main game loop
