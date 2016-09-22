@@ -5,55 +5,55 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<title>Auf Dich</title>
 		<link rel="shortcut icon" type="image/png" href="images/Favicon.png"/>
-		<link rel="stylesheet" type="text/css" href="css/main.css">
+		
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+		<link rel="stylesheet" type="text/css" href="css/main-v2.css">
 		<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
 	</head>
 	<body class="cursor">
-
-		<section class="aufdich">
-			<h1>AUF</h1>
-			<h1>DICH</h1>
-		</section>
-
-		<div class="divider"></div>
-
-		<section class="berlin">
-			<div class="berlintext">
-				<p>DANKE</p>
-				<p>DAS DU</p>
-				<p style="font-weight: bolder; color: #e6aa82;">BERLIN</p>
-				<p>SOOOO</p>
-				<p>SCHÖN</p>
-				<p>MACHST</p>
+		<div class="container-fluid"> 
+			<div class="target"></div>
+			<div id="wrapperbottom"></div>
+			<div id="wrapperright"></div>
+			<div id="wrapper"></div>
+			<div class="aufdich">
+				<h1>AUF<br>DICH</h1>
 			</div>
-
-			<div class="iconliebe">
-				<div>
-					<img class="bottleheart" src="images/IconBottleHeart.png">
-					<canvas id="canvas"></canvas>
-					<script src="js/game.js"></script>
-				</div>
-				<div>
-					<p>Pfandflasche</p>
-					<p>100% Liebe</p>
-				</div>
+		<div class="row">
+			<div class="col-sx-12">
+				<img src="images/CheersHands.png">
 			</div>
-				</section> 	
+		</div>
 
-		<section>
-			<div class="image" style="background-image: url(images/Görlitzer-Park.jpg); background-size: cover;">
+		<div class="row">
+			<div class="col-xs-12 col-md-2 col-md-offset-1 center">
+				<p class="bottletext">Wenn für einen sauber gemacht wird, wird’s Zeit zum:</p>
+				<img src="images/Fill 1.svg" class="bottle">
+			</div>	
+		</div>
+
+		<div class="row">
+			<div class="col-xs-12 col-md-2 col-md-offset-1 center">
+				<p class="harttext">Danke<br>sagen!</p>
+				<img src="images/hart.svg" class="hart">
+			</div>	
+		</div>
+
+		<div class="row">
+			<div class=" footer">
+				
 			</div>
+		</div>
 
-			<div class="responsivetext">
-				<p class="text">A whacked Fraoch Heather Ale has a change of heart about the blue moon. Any tornado brew can organize a Citra Ninja around a porter, but it takes a real hops to organize a discusting Wolverine Beer.<br> 
-				<br>Now and then, a skinny Amarillo Pale Ale conquers a dude. A porter over the pit viper buys an expensive drink for another blood clot.</p>
-			</div>
-		</section>
+		<div class="row">
+			<div class="text1 col-xs-10 col-xs-offset-1 col-md-6 col-md-offset-3">
+					<p>
+					Coming soon!
+					</p>
+			</div>	
+		</div>
 
-		<div class="divider"></div>
-		
-		<footer>
-			
-		</footer>
 	</body>
+	<script src="js/particles.js"></script>
 </html>
